@@ -1,36 +1,65 @@
-# Dependencias del Bot de Ortopedia para WhatsApp
-
-# Framework Web
-flask==3.0.0
-flask-limiter==3.5.0
-
-# Requests HTTP
-requests==2.31.0
-
-# Variables de entorno
-python-dotenv==1.0.0
-
-# OpenAI (ChatGPT)
-openai==1.3.0
-
-# Anthropic (Claude) - Opcional
+annotated-types==0.7.0
 anthropic==0.7.0
-
-# Zoom API
-PyJWT==2.8.0
-
-# Google Meet API
-google-auth==2.25.0
-google-auth-oauthlib==1.2.0
-google-auth-httplib2==0.2.0
+anyio==3.7.1
+blinker==1.9.0
+cachetools==5.5.2
+certifi==2025.8.3
+charset-normalizer==3.4.3
+click==8.3.0
+colorama==0.4.6
+Deprecated==1.2.18
+distro==1.9.0
+filelock==3.19.1
+Flask==3.0.0
+Flask-Limiter==3.5.0
+fsspec==2025.9.0
+google-api-core==2.25.1
 google-api-python-client==2.110.0
-
-# Utilidades
-pytz==2023.3
-schedule==1.2.0
-
-# Email
-secure-smtplib==0.1.1
-
-# Producción
+google-auth==2.25.0
+google-auth-httplib2==0.2.0
+google-auth-oauthlib==1.2.0
+googleapis-common-protos==1.70.0
 gunicorn==21.2.0
+h11==0.16.0
+httpcore==1.0.9
+httplib2==0.31.0
+httpx==0.28.1
+huggingface-hub==0.35.3
+idna==3.10
+itsdangerous==2.2.0
+Jinja2==3.1.6
+limits==5.6.0
+markdown-it-py==4.0.0
+MarkupSafe==3.0.3
+mdurl==0.1.2
+oauthlib==3.3.1
+openai==1.3.0
+ordered-set==4.1.0
+packaging==25.0
+proto-plus==1.26.1
+protobuf==6.32.1
+pyasn1==0.6.1
+pyasn1_modules==0.4.2
+pydantic==2.11.9
+pydantic_core==2.33.2
+Pygments==2.19.2
+PyJWT==2.8.0
+pyparsing==3.2.5
+python-dotenv==1.0.0
+pytz==2023.3
+PyYAML==6.0.3
+requests==2.31.0
+requests-oauthlib==2.0.0
+rich==13.9.4
+rsa==4.9.1
+schedule==1.2.0
+secure-smtplib==0.1.1
+sniffio==1.3.1
+tokenizers==0.22.1
+tqdm==4.67.1
+typing-inspection==0.4.2
+typing_extensions==4.15.0
+uritemplate==4.2.0
+urllib3==2.5.0
+Werkzeug==3.1.3
+wrapt==1.17.3
