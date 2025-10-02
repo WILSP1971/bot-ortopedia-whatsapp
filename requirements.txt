@@ -1,0 +1,36 @@
+# Dependencias del Bot de Ortopedia para WhatsApp
+
+# Framework Web
+flask==3.0.0
+flask-limiter==3.5.0
+
+# Requests HTTP
+requests==2.31.0
+
+# Variables de entorno
+python-dotenv==1.0.0
+
+# OpenAI (ChatGPT)
+openai==1.3.0
+
+# Anthropic (Claude) - Opcional
+anthropic==0.7.0
+
+# Zoom API
+PyJWT==2.8.0
+
+# Google Meet API
+google-auth==2.25.0
+google-auth-oauthlib==1.2.0
+google-auth-httplib2==0.2.0
+google-api-python-client==2.110.0
+
+# Utilidades
+pytz==2023.3
+schedule==1.2.0
+
+# Email
+secure-smtplib==0.1.1
+
+# Producción
+gunicorn==21.2.0

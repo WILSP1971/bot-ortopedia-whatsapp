@@ -1,0 +1,35 @@
+# Variables de entorno
+.env
+.env.local
+
+# Credenciales
+credentials.json
+*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+venv/
+env/
+ENV/
+
+# Logs
+*.log
+logs/
+
+# Sistema
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
