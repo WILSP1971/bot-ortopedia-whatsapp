@@ -27,7 +27,7 @@ app = Flask(__name__)
 # Configuración de WhatsApp Cloud API
 WHATSAPP_TOKEN = os.getenv('WHATSAPP_TOKEN')
 WHATSAPP_PHONE_ID = os.getenv('WHATSAPP_PHONE_ID')
-VERIFY_TOKEN = os.getenv('VERIFY_TOKEN')
+VERIFY_TOKEN = "TWSCodeJG#75" #os.getenv('VERIFY_TOKEN')
 
 # Configuración de IA
 OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
@@ -599,6 +599,10 @@ def handle_video_call_meet(phone_number):
 # ============================================================================
 # WEBHOOK
 # ============================================================================
+
+@app.get("/")
+def root():
+    return {"ok": True, "msg": "WhatsApp backend running."}
 
 @app.route('/webhook', methods=['GET'])
 def verify_webhook():
